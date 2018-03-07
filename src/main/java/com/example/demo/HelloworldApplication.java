@@ -15,6 +15,6 @@ public class HelloworldApplication {
 	
 	@RequestMapping(value = "/",produces = "text/plain;charset=UTF-8")
     String index(){
-        return "Hello Spring Boot!";
+        return "Hello Spring Boot! Branch dev!";
     }
 }
